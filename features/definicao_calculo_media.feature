@@ -53,4 +53,4 @@ Then o estado muda
 Scenario: mais um cenario novo
 Given eu estou em um estado
 When eu faço algo
-Then algo acontece com o estado
+Then fix(algo acontece com o estado)
