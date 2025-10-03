@@ -44,3 +44,13 @@ And Confirmo a configuração
 Then Estando na mesma página
 And Vejo uma mensagem de erro “100” que indica que o cálculo da média não foi especificado
 And novo passo
+
+Scenario: Novo cenário
+Given um estado
+When eu faço algo
+Then o estado muda
+
+Scenario: mais um cenario novo
+Given eu estou em um estado
+When eu faço algo
+Then algo acontece com o estado
