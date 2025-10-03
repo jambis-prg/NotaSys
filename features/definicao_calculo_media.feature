@@ -43,3 +43,4 @@ And Não especifico o cálculo de média
 And Confirmo a configuração
 Then Estando na mesma página
 And Vejo uma mensagem de erro “100” que indica que o cálculo da média não foi especificado
+And novo passo
