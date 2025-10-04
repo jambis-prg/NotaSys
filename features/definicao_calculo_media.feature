@@ -69,3 +69,5 @@ Scenario: Adicionando segundo commit
 Given Eu estou na questão 13
 When Eu adiciono o segundo commit
 Then Posso continuar finalizar a questão 13
+
+Scenario: fix(Configuração do cálculo de média sem algum campo)
