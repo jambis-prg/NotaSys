@@ -54,3 +54,8 @@ Scenario: Mais um cenário novo
 Given Eu estou em um estado
 When Eu faço algo
 Then fix(Algo acontece com o estado)
+
+Scenario: Adicionando commit na master
+Given Eu estou na questão 13 da aula 3 
+When Adiciono um commit na master
+Then Posso usar git rebase
