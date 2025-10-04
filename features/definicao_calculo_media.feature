@@ -1,7 +1,7 @@
 Feature: Definição do cálculo de média
-As a professor do sistema
-I want to definir o cálculo da média da minha turma
-So that o sistema calcule as notas finais com base nos critérios escolhidos
+As a Professor do sistema
+I want to Definir o cálculo da média da minha turma
+So that O sistema calcule as notas finais com base nos critérios escolhidos
 
 Scenario: Sucesso da configuração de cálculo de média
 Given Eu criando uma turma
@@ -43,14 +43,14 @@ And Não especifico o cálculo de média
 And Confirmo a configuração
 Then Estando na mesma página
 And Vejo uma mensagem de erro “100” que indica que o cálculo da média não foi especificado
-And novo passo
+And Novo passo
 
 Scenario: Novo cenário
-Given um estado
-When eu faço algo
-Then o estado muda
+Given Um estado
+When Eu faço algo
+Then O estado muda
 
 Scenario: Mais um cenário novo
-Given eu estou em um estado
-When eu faço algo
-Then fix(algo acontece com o estado)
+Given Eu estou em um estado
+When Eu faço algo
+Then fix(Algo acontece com o estado)
