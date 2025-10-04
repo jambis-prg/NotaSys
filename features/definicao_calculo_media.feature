@@ -14,7 +14,7 @@ Then Estando na mesma página
 And Vejo uma mensagem de sucesso que está configurado
 And O sistema salva para aquela turma a configuracao
 
-Scenario: COnfiguração de cálculo de média sem quantidade de avaliações
+Scenario: Configuração de cálculo de média sem quantidade de avaliações
 Given Eu criando uma turma
 And Estou na página "Configuração de Média"
 When Eu não preencho os campos da quantidade de avaliações
@@ -50,7 +50,7 @@ Given um estado
 When eu faço algo
 Then o estado muda
 
-Scenario: mais um cenario novo
+Scenario: Mais um cenário novo
 Given eu estou em um estado
 When eu faço algo
 Then fix(algo acontece com o estado)
