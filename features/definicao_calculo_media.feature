@@ -64,3 +64,8 @@ Scenario: Adicionando mais 1 commit
 Given Eu estou na questão 13
 When Eu adiciono mais um commit
 Then Posso continuar com a questão 13
+
+Scenario: Adicionando segundo commit
+Given Eu estou na questão 13
+When Eu adiciono o segundo commit
+Then Posso continuar finalizar a questão 13
